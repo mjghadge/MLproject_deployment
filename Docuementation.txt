@@ -1,0 +1,41 @@
+- create project folder
+- create github repository
+- Open project folder in vs code
+- create a project env
+    python3.9 -m venv venv
+    source venv/bin/activate
+
+- run below commands to initialize the git in project folder
+    git init
+- create a README.md file
+    git add README.md
+    git commit -m "First commit"
+    git branch -M main
+    git remote add origin https://github.com/mjghadge/MLproject_deployment.git
+    git remote -v
+    ## if first time accessing use below step
+    git push -u origin main
+
+- If first time (Git global)
+    git config --global user.name "mjghadge"
+    git config --global user.email mjghadge9007@gmail.com
+
+- To check status
+    git status
+
+- Add .gitignore file from github and select python template
+
+- for updatation in VScode if anychanges are made in github repository
+    git pull
+
+- Create requirements.txt file manually
+- dont run pip freeze>requirements.txt
+
+- Create a setup.py file
+    - search on google for python setup.py
+    - create a template in it to install packages and create project info files
+
+- Create new src folder in project
+    - create a new file __init__.py 
+
+- run pip install -r requirements.txt
