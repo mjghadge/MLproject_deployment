@@ -1,3 +1,5 @@
+Lecture-1
+============
 - create project folder
 - create github repository
 - Open project folder in vs code
@@ -38,4 +40,38 @@
 - Create new src folder in project
     - create a new file __init__.py 
 
-- run pip install -r requirements.txt
+- run 
+    pip install -r requirements.txt
+
+- run 
+    git add .
+    git status
+    git commit -m "setup"
+    git push -u origin main
+    
+
+Lecture-2
+============
+- create a components folder inside src folder
+    - create a files inside this components folder:
+        - __init__.py
+        - data_ingestion.py
+        - data_transformation.py
+        - model_trainer.py
+
+- create a pipeline folder inside src folder
+    - create a files inside this pipeline folder:
+        - __init__.py
+        - train_pipeline.py
+        - predict_pipeline.py
+
+- create logger.py file inside src folder for logging
+- create exception.py file inside src folder for handling exception
+    search built in exceptions documentation
+    search sys library python
+    search custom exception handling in python documentation
+- create utils.py file inside src folder for adding functionalies in the application
+
+git status
+git add .
+git push -u origin main
