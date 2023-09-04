@@ -76,3 +76,14 @@ git status
 git add .
 git commit -m "logging and exception"
 git push -u origin main
+
+- Added notebook folder with EDA and Model training files added
+git add .
+git status
+git commit -m "EDA and Model training files added"
+git push -u origin main
+
+
+Video 4:
+- Edited data_ingestion.py
+- Aslo add artifacts folder in the git ignore to avoid the saving in the github
