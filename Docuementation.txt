@@ -87,3 +87,12 @@ git push -u origin main
 Video 4:
 - Edited data_ingestion.py
 - Aslo add artifacts folder in the git ignore to avoid the saving in the github
+    .artifacts
+git add .
+git status
+git commit -m "EDA and Model training files added"
+git push -u origin main 
+
+Tutorial 5:
+https://youtu.be/Zs2BZkgoivM?list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG
+- Create a complete file of data_transformation file 

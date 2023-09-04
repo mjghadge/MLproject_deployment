@@ -3,6 +3,9 @@ numpy
 seaborn
 matplotlib
 scikit-learn
+cmake
 catboost
 xgboost
+dill
+
 # -e .
